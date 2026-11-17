@@ -6,7 +6,7 @@
 - Lớp (L2 / L3 / khác): L2B
 - Tài khoản GitHub: tantan294
 - Repo bài nộp (URL): [tantan294/K5-L2B-DAY08-2A202603304-BuiThanhTan-AIPrelabel](https://github.com/tantan294/K5-L2B-DAY08-2A202603304-BuiThanhTan-AIPrelabel)
-- Commit chốt bài (hash): <<>>
+- Commit chốt bài (hash): 99ded49
 - Máy: Windows 11, NVIDIA RTX 3050 Laptop GPU 4 GB (CUDA)
 - CVAT (Docker): v2.81.0
 
