@@ -1,0 +1,6 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,khong,Tân Tân,Đã soát 20 box: người đàn ông (#1) và người phụ nữ đội nón lá (#20) trên xe ba gác đã có box riêng; không thấy sót/thừa
+img_006.jpg,,khong,Tân Tân,Đã soát 23 box: box trùng xe máy và car ma đã xoá; #68/#78 chồng nhau (IoU 0.64) nhưng là 2 xe đỗ liền kề khác nhau
+img_014.jpg,,khong,Tân Tân,"Đã soát 17 box: người/xe máy đúng lớp, viền khít, không thấy sót vật lớn"
+img_031.jpg,413,sai_vi_tri_kich_thuoc,Tân Tân,"Box bicycle gồm giỏ hàng bên phải nhưng cắt mất mẹt cà chua nhô ra bên trái (x≈140-225) - không nhất quán; câu hỏi mở 'hàng nhô ra' của v1.0 chưa có quy tắc -> đưa vào calibration. #412 person đã kéo tới chân, đúng guideline"
+img_035.jpg,,khong,Tân Tân,Đã soát 28 box: 2 cặp box trùng và box motorbike trên lưng người lái đã xoá; xích lô #481 đúng lớp three_wheeler

@@ -1,1 +1,8 @@
 step,images,minutes,note
+gold_manual,4,20,"ước lượng: không bấm giờ từng bước; chia tổng 180 phút làm lab theo tỉ lệ mốc CHECKPOINTS.md (CP1 25/230 phút); gán tay trong CVAT, không xem pre-label"
+model_tour,8,25,"ước lượng (CP2): chạy YOLO26 conf 0.25/0.5, YOLOE three_wheeler, YOLO26+SAM 2.1-b trên ảnh pilot, chạy --split all --conf 0.05, ghi model_log"
+threshold_sweep,4,8,"ước lượng (CP3): threshold_sweep.py trên 4 ảnh gold, chọn three_wheeler=0.15"
+batch_review,24,72,"ước lượng (CP4): merge_prelabels + inject_traps, duyệt 24 ảnh batch trên CVAT, export batch_reviewed.json, review_stats"
+sam_masks,3,12,"ước lượng (CP5): sam2_points.py cho tuk-tuk img_004, img_013 (SAM 1 + SAM 2.1), img_017"
+calibration_qc,5,35,"ước lượng (CP6): build_release, qc_sample 5 ảnh, sửa lại bẫy lọt + lỗi QC (2 vòng export lại), calibration_decisions, guideline v1.1, REPORT"
+submit,0,8,"ước lượng: check_submission, commit, nộp link"

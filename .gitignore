@@ -10,3 +10,14 @@ models/*
 *.onnx
 _review/
 *.ts
+
+# venv tạo nhầm ở thư mục gốc repo (python -m venv .)
+pyvenv.cfg
+Include/
+Lib/
+scripts/*.exe
+scripts/activate
+scripts/activate.bat
+scripts/activate.fish
+scripts/Activate.ps1
+scripts/deactivate.bat
